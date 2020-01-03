@@ -2,8 +2,8 @@
 const path = require("path");
 module.exports = {
   entry: {
-    app: "./src/bundles/bundle.js",
-    display: "./src/bundles/amiibo-display.js"
+    app: "./src/bundle.js",
+    display: "./src/amiibo-display.js"
   },
   output: {
     filename: "[name].js",
